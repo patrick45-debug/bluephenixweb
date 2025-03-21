@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1;
+            padding: 1;
+            background-color: #04387D;
+            color: white;
+        }
+
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #043873;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: slideDown 0.6s ease-out;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 35px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+   display: flex;
+   
+}
+
+.navbar .products,
+.navbar .solutions,
+.navbar .pricing,
+.navbar .resources {
+    cursor: pointer;
+    
+}
+
+        
+        .hero {
+            padding: 50px;
+            text-align: left;
+            background-color: #04387D;
+        }
+        .hero h1 {
+            font-size: 30px;
+        }
+        .hero button {
+            background-color: #4F9CFD;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .section {
+            padding: 50px;
+            background-color:whitesmoke;
+            color: black;
+       
+       }
+       .hero3{
+        padding: 50px;
+        background-color:blue;
+        color:black
+       }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .text {
+            width: 50%;
+        }
+        .image-placeholder {
+            width: 40%;
+            height: 800px;
+            background-color: #C4DEF5;
+        }
+        
+    
+        .work-together {
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+            color: black;
+        }
+        .work-together button {
+            background-color: #4F9CFD;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        
+        .footer {
+            padding: 50px;
+            background-color: #04387D;
+            color: white;
+            text-align: center;
+        }
+        .img{
+            height: 200px;
+        }
+        .btk{
+            height: 300px;
+        }
+        .fgc{
+        height: 90px;
+      }
+      .sdk{
+        height: 300px;
+      }
+@keyframes slideDown{
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+               
+    </style>
+</head>
+<body>
+
+    
+    <div class="navbar">
+        <div><img src="assets/images/electric-car-icon-6567253.webp" class="fgc" alt=""></div>
+        <div>
+            <a href="#">Features</a>
+            <a href="#">Hybrid Cars product</a>
+            <a href="#">Warranty</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/electric-car-icon-6567253.webp" alt="logo">
+            </div>
+            <ul style="margin-right: 1250px;">
+                <li><span class="products">Products</span></li>
+                <li><span class="solutions">Solutions</span></li>
+                <li><span class="resources">Stocks</span></li>
+                <li><span class="pricing">Pricing</span></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="hero">
+        <h1>HYBRID CARS</h1>
+        <p>Hybrid cars, also known as Hybrid Electric Vehicles (HEVs), combine a gasoline engine with an electric motor and battery, allowing for more fuel efficiency and reduced emissions compared to traditional gasoline-only vehicles. .</p>
+        <button>About Hybrid Cars</button>
+    </div>
+
+    
+    <div class="section">
+        <div class="content">
+            <div class="text">
+                <h2>Hybrid Cars</h2>
+                <p>Hybrid cars use both a gasoline engine and an electric motor to power the vehicle..</p>
+            </div>
+           <img src="assets/images/pexels-mikebirdy-170811.jpg" class="img" alt="">
+        </div>
+    </div>
+
+    
+    <div class="Use Hybrid Now">
+        <h2>Hybrid Now</h2>
+        <p>The electric motor assists the gasoline engine, particularly during acceleration and at lower speeds, improving fuel economy.</p>
+       
+    </div>
+
+    
+    <div class="section">
+        <div class="content">
+            <div class="text">
+                <h2>More Powerfull</h2>
+                <p>There are different types of hybrid vehicles, including mild hybrids (which use a smaller battery and electric motor), full hybrids (which can run solely on electric power for short distances), and plug-in hybrids (which can be recharged via an external power source). </p>
+                <button>Learn More</button>
+            </div>
+            <img src="assets/images/images.jpeg" class="btk" alt="">
+        </div>
+  
+
+    <div class="hero 3">
+        <div class="content">
+            <div class="text">
+                <h3> battery service</h3>
+                <p>A battery pack stores the electricity for the electric motor, which is recharged through regenerative braking and sometimes through plugging into an external power source (in plug-in hybrid vehicles).</p>
+           <button>Order Now</button>
+            </div>
+            <img src="assets/images/Hybrid-Electric-Cars-NiMH-Replacement-Battery-Toyota-Prius-Hybrid-Car-Battery.avif" class="sdk" alt="">
+    </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Hybrid Cars.</p>
+    </div>
+
+</body>
+</html>
